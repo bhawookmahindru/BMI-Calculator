@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
                 bmiview.visibility = VISIBLE
                 calbutton.visibility = GONE
             } else
-                Toast.makeText(this, "Please input Weight and Height value greater than 0", Toast.LENGTH_LONG).show()  // toast
+                Toast.makeText(this, "Please input Weight and Height value greater than 0", Toast.LENGTH_LONG).show()  
 
         }
         againcal.setOnClickListener {
